@@ -1,0 +1,23 @@
+# Bank_Accounts_Project
+ This is the first project of the Udemy OOP course.
+
+- unique account number (just passed to __init__)
+- first & last name
+- preferred time zone offset (-7 for MST)
+- balance >= 0
+- balance not directly settable
+- method for deposit
+- method for decline (only when sufficient balance)
+- uniform monthly deposit rate
+- method to add interest rate to all balances
+- confirmation number for each action:
+    - D = deposit, W = withdrawal, I = interest deposit, X = declined
+    - account number
+    - time in UTC
+    - an incrementing ID (used over all accounts, starts at 0)
+    - return confirmation number after every transaction
+    - example: D-140568-20190315145900-124
+- method(conf number) ->:
+    - ...
+    - ...
+    - ...
